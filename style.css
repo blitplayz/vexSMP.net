@@ -1,0 +1,96 @@
+body {
+    background-image: linear-gradient(to right, black, rgb(143, 1, 136));
+    padding-top: 5px;
+}
+
+.rectangle {
+    width: 600px;
+    height: 700px;
+    border: 2px solid rgb(249, 222, 250);
+    border-radius: 20px;
+    background-color: transparent;
+    position: relative;
+    left: 1000px;
+    top: 100px;
+}
+
+.rectangle2 {
+    width: 605px;
+    height: 705px;
+    border: 2px solid rgb(249, 222, 250);
+    border-radius: 20px;
+    background-color: transparent;
+    position: relative;
+    left: 100px;
+    top: -605px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.ranks {
+    width: 533px;
+    height: 100px;
+    position: relative;
+    background-color: rgb(146, 0, 139);
+    left: 1026px;
+    top: -1275px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgb(160, 0, 160) 70%), url('assets/shop.png');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    justify-content: flex-start;
+    display: flex;
+    padding-left: 20px;
+
+}
+
+.ranks:hover {
+    transform: scale(1.01);
+    background-color: rgb(168, 5, 160);
+    cursor: pointer;
+}
+
+.coins {
+    width: 533px;
+    height: 100px;
+    position: relative;
+    background-color: rgb(146, 0, 139);
+    left: 1026px;
+    top: -1250px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgb(160, 0, 160) 70%), url('assets/shop.png');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    justify-content: flex-start;
+    display: flex;
+    padding-left: 20px;
+}
+
+.coins:hover {
+    transform: scale(1.01);
+    background-color: rgb(168, 5, 160);
+    cursor: pointer;
+}
+
